@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://cdn.rawgit.com/showdownjs/showdown/1.8.4/dist/showdown.min.js"></script>
+<script src="js/script.js"></script>
+
+<body>
+  <div id="headerDiv">
+  	<h1> Markdown-HTML Converter</h1>
+  </div>
+  <div id="containerDiv">
+  	<div id="sourceDiv">
+  		<h3> Markdown </h3>
+  		<textarea id="sourceTA" ></textarea>
+  		<button id="showBtn" class="btn btn-primary" onClick="show()">Preview</button>
+  		<button id="downloadBtn" class="btn btn-primary" onClick="download()"> Download</button>
+  	</div>
+  	<div id="targetDiv">
+  		<h3> HTML </h3>
+  		<div id="targetTA"></div>
+  	</div>
+  </div>
+
+</body>
+</html>
